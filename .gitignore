@@ -1,0 +1,2 @@
+.local/state/DankMaterialShell/*
+!.local/state/DankMaterialShell/session.json
