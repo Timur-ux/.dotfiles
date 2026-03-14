@@ -3,8 +3,8 @@
 #
 
 
-source ./my-env.sh
-source ./.config/scripts/git-completion.bash
+source ~/my-env.sh
+source ~/.config/scripts/git-completion.bash
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return

@@ -1,0 +1,16 @@
+If:
+  PathMatch: [.*\.cpp, .*\.hpp]
+  CompileFlags:
+    Add: [-std=c++23, -Wall, -pedantic]
+    Compiler: g++
+If:
+  PathMatch: [.*\.cu]
+  CompileFlags:
+    Add: [-std=c++23, -Wall, -pedantic]
+    Compiler: nvcc
+
+If:
+  PathMatch: [.*\.c, .*\.h]
+  CompileFlags:
+    Add: [-std=c11, -Wall, -pedantic]
+    Compiler: gcc
