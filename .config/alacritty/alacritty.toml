@@ -1,0 +1,7 @@
+[window]
+decorations="None"
+
+[[keyboard.bindings]]
+key="O"
+mods = "Control|Shift"
+action = "ReceiveChar"
