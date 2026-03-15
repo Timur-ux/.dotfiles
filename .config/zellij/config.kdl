@@ -158,8 +158,8 @@ keybinds clear-defaults=true {
         bind "Alt Shift o" { MoveTab "right"; }
     }
     shared_except "locked" {
-        bind "Alt p" { TogglePaneInGroup; }
-        bind "Alt Shift p" { ToggleGroupMarking; }
+        // bind "Alt p" { TogglePaneInGroup; }
+        // bind "Alt Shift p" { ToggleGroupMarking; }
     }
     shared_except "locked" "entersearch" "renametab" "renamepane" "move" "prompt" "tmux" {
         bind "Ctrl Shift h" { SwitchToMode "move"; }
@@ -427,7 +427,7 @@ on_force_close "detach"
 // otherwise this will error if such a session exists.
 // Default: <RANDOM>
 //
-session_name "Default session"
+session_name "default"
 
 // When `session_name` is provided, attaches to that session
 // if it is already running or creates it otherwise.

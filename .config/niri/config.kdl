@@ -364,6 +364,11 @@ window-rule {
 	open-maximized false
 }
 
+window-rule {
+	 match app-id="zathura"
+	open-maximized false
+}
+
 // Indicate screencasted windows with red colors.
 window-rule {
     match is-window-cast-target=true
