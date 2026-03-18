@@ -1,2 +1,5 @@
 .local/state/DankMaterialShell/*
 !.local/state/DankMaterialShell/session.json
+
+.config/DankMaterialShell/*
+!.conifg/DankMaterialShell/settings.json

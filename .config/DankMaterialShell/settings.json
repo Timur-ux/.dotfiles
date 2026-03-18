@@ -167,8 +167,8 @@
   "browserPickerViewMode": "grid",
   "browserUsageHistory": {
     "firefox": {
-      "count": 5,
-      "lastUsed": 1773594332305,
+      "count": 7,
+      "lastUsed": 1773769440664,
       "name": "Firefox"
     }
   },
@@ -249,6 +249,7 @@
   "brightnessDevicePins": {},
   "wifiNetworkPins": {
     "preferredWifi": [
+      "Redmi Note 10 Pro",
       "MAI_public"
     ]
   },
