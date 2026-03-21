@@ -2,3 +2,6 @@
 	path = nix
 	url = git@github.com:Timur-ux/nixos-config.git
 	branch = master
+[submodule ".config/nvim"]
+	path = .config/nvim
+	url = https://github.com/Timur-ux/lazyvim-setup
