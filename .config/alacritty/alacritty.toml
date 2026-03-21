@@ -1,6 +1,9 @@
 [window]
 decorations="None"
 
+[hints]
+enabled = []
+
 [[keyboard.bindings]]
 key="O"
 mods = "Control|Shift"
