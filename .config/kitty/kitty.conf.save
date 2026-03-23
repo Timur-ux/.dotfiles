@@ -1,4 +1,10 @@
-confirm_os_window_close 0
+Yvim:fileencoding=utf-8:foldmethod=marker
+
+font_family      family='JetBrainsMono Nerd Font' postscript_name=JetBrainsMonoNF-Regular style=bold
+bold_font        family='JetBrainsMono Nerd Font' style=Bold
+italic_font      auto
+bold_italic_font auto
+
 font_size 14.0
 
 cursor_blink_interval 0
