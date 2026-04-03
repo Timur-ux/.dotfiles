@@ -1,8 +1,25 @@
 {
-  "currentThemeName": "custom",
-  "currentThemeCategory": "registry",
-  "customThemeFile": "/home/raison/.config/DankMaterialShell/themes/crimsonVoltage/theme.json",
-  "registryThemeVariants": {},
+  "currentThemeName": "blue",
+  "currentThemeCategory": "generic",
+  "customThemeFile": "/home/raison/.config/DankMaterialShell/themes/catppuccin/theme.json",
+  "registryThemeVariants": {
+    "catppuccin": {
+      "light": {
+        "flavor": "latte",
+        "accent": "red"
+      },
+      "dark": {
+        "flavor": "macchiato",
+        "accent": "maroon"
+      }
+    },
+    "amoledBlack": {
+      "dark": {
+        "flavor": "black",
+        "accent": "blue"
+      }
+    }
+  },
   "matugenScheme": "scheme-tonal-spot",
   "runUserMatugenTemplates": true,
   "matugenTargetMonitor": "",
@@ -167,8 +184,8 @@
   "browserPickerViewMode": "grid",
   "browserUsageHistory": {
     "firefox": {
-      "count": 14,
-      "lastUsed": 1774180253993,
+      "count": 25,
+      "lastUsed": 1774354397604,
       "name": "Firefox"
     }
   },
@@ -234,10 +251,10 @@
   "soundNewNotification": true,
   "soundVolumeChanged": true,
   "soundPluggedIn": true,
-  "acMonitorTimeout": 0,
-  "acLockTimeout": 0,
-  "acSuspendTimeout": 0,
-  "acSuspendBehavior": 0,
+  "acMonitorTimeout": 1200,
+  "acLockTimeout": 900,
+  "acSuspendTimeout": 1800,
+  "acSuspendBehavior": 2,
   "acProfileName": "",
   "batteryMonitorTimeout": 0,
   "batteryLockTimeout": 0,
@@ -245,7 +262,7 @@
   "batterySuspendBehavior": 0,
   "batteryProfileName": "",
   "batteryChargeLimit": 100,
-  "lockBeforeSuspend": false,
+  "lockBeforeSuspend": true,
   "loginctlLockIntegration": true,
   "fadeToLockEnabled": true,
   "fadeToLockGracePeriod": 5,
@@ -381,8 +398,14 @@
   "updaterCustomCommand": "",
   "updaterTerminalAdditionalParams": "",
   "displayNameMode": "system",
-  "screenPreferences": {},
-  "showOnLastDisplay": {},
+  "screenPreferences": {
+    "dock": [
+      "all"
+    ]
+  },
+  "showOnLastDisplay": {
+    "dock": true
+  },
   "niriOutputSettings": {},
   "hyprlandOutputSettings": {},
   "displayProfiles": {},

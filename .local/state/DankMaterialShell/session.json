@@ -1,7 +1,7 @@
 {
   "isLightMode": false,
   "doNotDisturb": false,
-  "wallpaperPath": "/home/raison/wallpapers/mazda.jpg",
+  "wallpaperPath": "/home/raison/wallpapers/city-neon.jpg",
   "perMonitorWallpaper": false,
   "monitorWallpapers": {},
   "perModeWallpaper": false,
@@ -63,7 +63,7 @@
   "nvidiaGpuTempEnabled": false,
   "nonNvidiaGpuTempEnabled": false,
   "enabledGpuPciIds": [],
-  "wifiDeviceOverride": "",
+  "wifiDeviceOverride": "wlp63s0",
   "weatherHourlyDetailed": true,
   "hiddenApps": [],
   "appOverrides": {},
